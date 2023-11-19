@@ -1,0 +1,24 @@
+{
+  "name": "ImperialMetricXchange",
+  "short_name": "ImperialMetricXchange",
+  "icons": [
+    {
+      "src": "./favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#6943ff",
+  "background_color": "#6943ff",
+  "display": "standalone"
+}

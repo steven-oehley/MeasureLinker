@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImperialMetricXchange</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container container-main">
+        <button class="toggle-btn">Dark Mode 🌙</button>
+        <h1 class="app-title">Metric / Imperial <br />Unit Conversion</h1>
+        <input id="metric-input" type="number" class="metric-input" min="1" />
+        <button class="convert-btn">Convert</button>
+      </div>
+      <div class="container container-metrics">
+        <div class="conversion length-conversion">
+          <h2 class="conversion-heading">Length (Meter/Feet)</h2>
+        </div>
+        <div class="conversion volume-conversion">
+          <h2 class="conversion-heading">Volume (Litre/Gallon)</h2>
+        </div>
+        <div class="conversion mass-conversion">
+          <h2 class="conversion-heading">Mass (Kilograms/Pounds)</h2>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
