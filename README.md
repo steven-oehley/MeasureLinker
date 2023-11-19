@@ -10,6 +10,8 @@ The app also has a light and dark mode feature, allowing the user to switch betw
 
 A webmaifest file was used to allow users to download the app on their phone and have it appear as a mobile application.
 
+The project is available to view <a href="https://measurelinker.netlify.app/">here</a>.
+
 ### Technologies I Used 🧑‍💻:
 
 <hr>
